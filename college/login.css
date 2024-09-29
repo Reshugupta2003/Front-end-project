@@ -1,0 +1,70 @@
+.bor {
+    color: black;
+}
+.paragraph {
+    margin-bottom: 4rem;
+}
+.fluid {
+    height: 750px;
+}
+.row_r {
+    background-color: rgb(132, 71, 0);
+}
+.col-r {
+    color: rgb(185, 181, 181);
+    text-align: center;
+}
+.row>div:nth-child(2) {
+    background-color: rgb(83, 13, 148);
+}
+.row>div:nth-child(1) {
+    background-color: white;
+}
+.InputBox{
+    width: 350px;
+}
+.x input[type="email"]
+{
+  box-shadow: none;
+}
+.x input[type="password"]
+{
+box-shadow: none;
+}
+.welcome{
+display: inline;
+font-weight: none;
+line-height: 2;
+}
+.back{
+color: red;
+}
+.ps{
+padding-left: 100px;
+}
+a:active{
+color: black;
+}
+.hello{
+margin-top: 225px;
+text-align: center;
+color: white;
+}
+.hell{
+text-align: center;
+color: white;
+margin-top: 20px;
+}
+.sign{
+background-color: rgb(83, 13, 148);
+border: 1px solid rgb(255, 248, 48);
+align-items: center;
+margin-left: 250px;
+margin-top: 50px;
+}
+.signs{
+text-decoration: none; color: rgb(255, 208, 0); font-weight: bold; border: 1px solid rgb(0, 0, 0); padding: 8px;
+border-radius: 5px;
+font-size: large; 
+font-family: 'Times New Roman', Times, serif;
+}
