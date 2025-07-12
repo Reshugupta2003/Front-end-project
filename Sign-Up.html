@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homies:- Sign Up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+              background-image: url(https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+              background-repeat: no-repeat;
+             background-size: cover;
+        }
+        .container {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 3px solid #bfb3b3;
+            border-radius: 5px;
+            background-color: #ffffff;
+            box-shadow: 5px 5px 5px black;
+            margin-top:140px ;
+        }
+        .form-group {
+            margin-bottom: 10px;
+           
+        }
+        .form-group label {
+            display: block;
+            font-weight: bold;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        .btn {
+            background-color: #070707;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer; 
+        }
+        #sign{
+            width: 170px;
+            margin-left: 70px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        #log
+        {
+         margin-top: 50px;
+        }
+        #link
+        {
+         text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2> <center>Sign in</center></h2>
+        <form action="signup_process.php" method="post">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Sign Up" class="btn" id="sign">
+            </div>
+            <div class="form-group"  id="log">
+            <a href="login.html" target="_blank" id="link"><center><strong>Have you already sign in?</strong></center> </a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+

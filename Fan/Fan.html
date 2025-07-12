@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fan - Feeling of ice-age in Summer</title>
+    <style>
+       .Fan_Box {
+        margin: 100px auto;
+        width: 300px;
+        height: 300px;
+        background-image: url(fan-blades-png.png);
+        background-size: cover;
+        animation: fan 10s linear infinite;
+        animation-play-state: paused; 
+       }
+       @keyframes fan {
+             0% {
+                transform: rotateZ(0deg);
+             }
+             100% {
+                transform: rotateZ(359deg);
+             }
+       }
+    </style>
+     <Script> 
+        StopFan = () => {
+            document.getElementById("fanboxx").style.animationPlayState = 'paused';
+        }
+        StartFan =(speed) => {
+            if(speed == 1){
+                document.getElementById("fanboxx").style.animationPlayState = 'running';
+            document.getElementById("fanboxx").style.animationDuration = '2s';
+            }
+            else if(speed == 2){
+                document.getElementById("fanboxx").style.animationPlayState = 'running';
+            document.getElementById("fanboxx").style.animationDuration = 's';
+            }
+            else{
+            document.getElementById("fanboxx").style.animationPlayState = 'running';
+            document.getElementById("fanboxx").style.animationDuration = '0.5s';
+            }
+        }
+           </Script>
+</head>
+<body>
+    <div class="Fan_Box" id="fanboxx"></div>
+    <div style="text-align: center;">
+        <button onclick = "StopFan()">Stop</button>
+        <button onclick="StartFan(1)">1</button>
+        <button onclick="StartFan(2)">2</button>
+        <button onclick="StartFan(3)">3</button>
+    </div>
+   
+</body>
+</html>

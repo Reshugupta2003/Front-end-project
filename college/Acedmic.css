@@ -1,0 +1,15 @@
+.border{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow:0px 0px 3px 2px rgb(0, 0, 0);
+  }
+  .span{
+    background-color: chocolate;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-top-right-radius:0px;
+    border-top-left-radius:0px;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.5);
+  }
