@@ -1,6 +1,3 @@
-<img width="1920" height="1080" alt="Screenshot (1136)" src="https://github.com/user-attachments/assets/cd6b9741-e311-4502-ac4d-fee45fd9913a" />
-
-
 # Drawing Board
 
 A feature-rich web-based drawing application built with HTML, CSS, and JavaScript. Create digital artwork with various drawing tools, colors, and customization options.
@@ -59,7 +56,7 @@ Drawing Board/
 ├── style.css       # Styling and layout
 ├── script.js       # Drawing functionality and event handling
 └── README.md       # This file
-
+```
 Works on all modern browsers including:
 - Chrome
 - Firefox
@@ -74,3 +71,4 @@ Simply open `index.html` in your browser and start drawing!
 
 **Enjoy creating!** 🎨
 
+<img width="1920" height="859" alt="Screenshot (1136)" src="https://github.com/user-attachments/assets/77f610ff-a310-4553-b59c-8141c53531ce" />
