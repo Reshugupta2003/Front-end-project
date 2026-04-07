@@ -1,4 +1,4 @@
-# College
+# SkillSprint
 
 A responsive educational website built with Bootstrap 5, providing coding and academic resources for students.
 
@@ -54,3 +54,13 @@ This project is open source and available under the [MIT License](LICENSE).
 ## Contact
 
 For questions or feedback, please use the contact form on the website or reach out through the provided contact information.
+
+<img width="1920" height="1080" alt="Screenshot (1138)" src="https://github.com/user-attachments/assets/ebc5c1e2-d262-42ba-89e9-3fa23868a386" />
+<hr>
+<img width="1920" height="1080" alt="Screenshot (1139)" src="https://github.com/user-attachments/assets/242f2702-826a-400e-9a0a-b29171bc20bd" />
+<hr>
+<img width="1920" height="1080" alt="Screenshot (1140)" src="https://github.com/user-attachments/assets/e501b38b-2aa3-4010-ac20-f2b4c423ff60" />
+<hr>
+<img width="1920" height="1080" alt="Screenshot (1141)" src="https://github.com/user-attachments/assets/0bb53f48-05c8-4cca-bbaf-47de8dc5dcf0" />
+
+
