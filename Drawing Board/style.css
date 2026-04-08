@@ -1,0 +1,149 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #ffa033;
+}
+.container{
+  display: flex;
+  width: 100%;
+  max-width: 1950px;
+  gap: 10px;
+  padding: 10px;
+}
+section{
+  background-color: white;
+  border-radius: 7px;
+  
+}
+.tools-board{
+  width: 210px;
+  padding: 15px 22px 0px;
+}
+.tools-board .row{
+  margin-bottom: 20px;
+}
+.row .options{
+  list-style: none;
+  margin: 10px 0px 0px 5px;
+}
+.row .options .option{
+  display: flex;
+   cursor: pointer;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.option:is(:hover, .active) img{
+  filter: invert(27%) sepia(90%) saturate(2000%) hue-rotate(900deg) brightness(100%) contrast(150%);
+} 
+
+.option :where(span, label){
+ color: #000000;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.option:is(:hover, .active) :where(span, label){
+  color: #dd932c;
+}
+.option #fill-color{
+  height: 14px;
+  width: 14px;
+  cursor: pointer;
+}
+ #fill-color:checked + label{
+  color: #e2962c;
+}
+.option #size-slider{
+  width: 70%;
+  height: 5px;
+  margin-top: 10px;
+}
+.colours .options{
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.colours .option{
+  height: 20px;
+  width: 20px;
+  margin-top: 3px;
+  border-radius: 50%;
+  background-color: red;
+  position: relative;
+}
+.colours .option:nth-child(1){
+  background-color: #c6bebe;
+  border: 2px solid #b1a9a9;
+}
+.colours .option:nth-child(2){
+  background-color: black;
+}
+.colours .option:nth-child(3){
+  background-color: #ff0000;
+}.colours .option:nth-child(4){
+  background-color: #11ff00;
+}
+.colours .option:nth-child(5){
+  background-color: #00ccff;
+}
+
+.colours .option.select::before{
+  position: absolute;
+  content: " ";
+  height: 12px;
+  width: 12px;
+  background: inherit;
+  border: 2px solid #ffffff;
+  border-radius: inherit;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.option #color-picker{
+  opacity: 0;
+}
+.buttons button{
+  width:100%;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 11px 0px;
+  margin-bottom: 13px;
+  background: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.buttons .clear-canvas{
+  color: #b2a4a4;
+  border: 1px solid  #b2a4a4;
+  transition: all 0.3s ease;
+}
+.clear-canvas:hover{
+  color: white;
+  background-color: #b2a4a4;
+}
+.buttons .Save-img{
+  background-color: #ff9924;
+  border: 1px solid  #000000;
+}
+.drawing-board{
+  flex: 1;
+}
+.drawing-board canvas{
+  height: 100%;
+  width: 100%;
+}
+.drawing-board #name{
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding-left: 500px;
+}

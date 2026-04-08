@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+body{
+    background: linear-gradient(35deg,#0f0a0a,70%,#17a7ba);
+    height: 100vh;
+}
+.about{
+    width: 100%;
+    height: 78px 0px;
+    background: linear-gradient(35deg,#0f0a0a,70%,#8e6300);
+    height: 100vh;
+}
+.about img{
+    height: 500px;
+    margin-top: 80px;
+    border-radius: 20px;
+    
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1{
+    color: whitesmoke;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.about-text h5{
+    color: whitesmoke;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    position: relative;
+    padding: 10px 15px;
+    z-index: 1;
+    animation: TopSlide 1s ease forwards;
+    top: 80px;
+}
+
+span{
+    color: #f94c4c;
+}
+.about-text p{
+    color: whitesmoke;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    position: relative;
+    padding: 10px 15px;
+    z-index: 1;
+    animation: TopSlide 1s ease forwards;
+    top: 80px;
+}
+@keyframes TopSlide {
+    0%{
+        top: -80px;
+        filter: blur(5px);
+        opacity: 0;
+    }
+    100%{
+        top: 0px;
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+button{
+    background: #f94c4c;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: .4s;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    
+}
+button:hover{
+    background: transparent;
+    border: 2px solid #f94c4c;
+    cursor: pointer;
+}
+.back{
+    margin: 30px;
+}
